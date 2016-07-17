@@ -13,6 +13,7 @@ export class ProjectsComponent{
     this.title = "Projects";
     this.projectsService = projectsService;
     this.projects = [];
+    this.projectID = '';
   }
 
   static get parameters() {
