@@ -1,0 +1,10 @@
+{
+  "generator-mjs": {
+    "appName": "portfolio-ng-2",
+    "githubName": "Daniel Klein",
+    "githubEmail": "danhirschklein@gmail.com",
+    "githubNameAndEmail": "Daniel Klein <danhirschklein@gmail.com>",
+    "appDescription": "Portfolio Site",
+    "appAuthor": "Daniel Klein <danhirschklein@gmail.com>"
+  }
+}

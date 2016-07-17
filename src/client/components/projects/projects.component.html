@@ -1,0 +1,30 @@
+<h1>{{title}}</h1>
+
+
+<paper-drawer-panel right-drawer>
+  <paper-header-panel drawer>
+    <paper-toolbar>
+      <div>Application</div>
+    </paper-toolbar>
+    <div> Drawer content... </div>
+  </paper-header-panel>
+  <paper-header-panel main>
+    <paper-toolbar>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+      <div>Title</div>
+    </paper-toolbar>
+    <div role="listbox">
+    <div class="container">
+        <div class="posts">
+          <paper-item class="10 columns ind-post" *ngFor="let project of projects">
+            <div class="row">
+              <img src="{{project.image}}">
+              <h2>{{project.title}}</h2>
+              <p> {{project.short}}</p>
+            </div>
+          </paper-item>
+        </div>
+      </div>
+    </div>
+  </paper-header-panel>
+</paper-drawer-panel>

@@ -1,0 +1,20 @@
+.placeholder {
+  font-weight: normal;
+}
+
+.ind-post {
+  border: 1px solid #696969;
+  margin-bottom: 10vh; }
+  .posts .ind-post h2 {
+    font-size: 2rem;
+    font-weight: bold; }
+    .posts .ind-post img {
+      width:100%;
+    }
+  .posts .ind-post h2, .posts .ind-post p {
+    padding: 0 10px; }
+  .posts .ind-post:hover {
+    opacity: .7;
+    cursor: pointer; }
+
+img {width:100%;}
