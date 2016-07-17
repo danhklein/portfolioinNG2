@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+
+<div role="listbox">
+    <paper-item *ngFor="let project of projects">
+      {{project.title}} - {{project.short}}
+    </paper-item>
+</div>
