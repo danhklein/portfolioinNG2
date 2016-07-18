@@ -5,10 +5,10 @@ import {Http, Response} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 
 @Injectable()
-export class ProjectsService{
+export class LandingService{
   constructor(http){
     this.http = http;
-    this.url = 'mock/projects';
+    this.url = 'mock/landing';
   }
 
   static get parameters(){
@@ -28,6 +28,6 @@ export class ProjectsService{
 
   handleError(err){
     console.error(err);
-    return Observable.throw(error.json().error || 'Error in ProjectsService');
+    return Observable.throw(error.json().error || 'Error in LandingService');
   }
 }
