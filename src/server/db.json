@@ -8,23 +8,25 @@
     "long": "Current America is a data visualization project transforming hard to read information from the Energy Information Administration into an easy to understand application comparing changes in United States electricity generation over the last 25 years.",
     "build": "Angular, MongoDB, D3.js, Charts.js and Datamaps.",
      "image":"http://currentamerica.herokuapp.com/images/currentlogo.png",
+
      "link": "http://currentamerica.herokuapp.com/",
      "github": "https://github.com/KyleJayMaxwell/angular-capStone"
     },
     {
     "id":2,
     "title":"Alligator Jobs",
-    "short": "A job site for refugees, caseworkers and employers.",
-    "long": "Alligator Jobs is a full-stack App designed to help refugees find work in America. Our application creates an easy to use platform and database for job seekers, their caseworkers and potential employers to connect easily in ways that erase the divide between different working cultures. Job seekers can create profiles that showcase skills rather than simply employment history, employers can create job postings and case workers have an easy to use dashboard to connect the two and track clientele status.",
-    "build": "Node.js/Express, PSQL, OAUTH2/Passport, GoogleAuth, Mocha/Chai, Pivotal Tracker, Heroku, Knex.JS, Bluebird (Promise Library), Jquery, Javascript, Bootstrap.",
+    "short": "A job site for refugees, caseworkers and employers",
+    "long": "Alligator Jobs is a full-stack App designed to help refugees find work in America. Our application creates an easy to use platform and database for job seekers, their caseworkers and potential employers to connect easily in ways that erase the divide between different working cultures.",
+    "build": "Node.js/Express, PSQL, OAUTH2/Passport, GoogleAuth, Mocha/Chai, Pivotal Tracker, Heroku, Knex.JS, Bluebird (Promise Library), jQuery, Javascript, Bootstrap.",
     "image": "https://alligatorjobs.herokuapp.com/image/logo.png",
+
     "link": "https://alligatorjobs.com",
     "github": "https://github.com/danhklein/alligatorjobs"
     },
     {
     "id":3,
     "title":"Kyubot",
-    "short": "Browser Based Bluetooth Robot Controller.",
+    "short": "Browser Based Bluetooth Robot Controller",
     "long": "A web app that allows you to control an Orbotix Sphero robot directly from your Chrome browser.",
     "build": "React, JavaScript, jQuery, PostCSS, Canvas, Sphero API and the Web Bluetooth API.",
     "image": "https://danhklein.github.io/Kyubot/images/kyubot2.png",

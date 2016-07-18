@@ -14,11 +14,9 @@ export class ProjectsComponent{
     this.projectsService = projectsService;
     this.projects = [];
     this.selectedProject = "";
-    this.clicked = function(project) {
+    this.clicked = project => {
       this.selectedProject = project;
     };
-
-
   }
 
   static get parameters() {
