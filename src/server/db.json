@@ -6,7 +6,7 @@
     "title":"Current America",
     "short": "Discover How U.S. Electricity Generation Has Changed Over Time And Distance",
     "long": "Current America is a data visualization project transforming hard to read information from the Energy Information Administration into an easy to understand application comparing changes in United States electricity generation over the last 25 years.",
-    "build": "Angular, MongoDB, D3.js, Charts.js and Datamaps.",
+    "build": "AngularJS, MongoDB, D3.js, Charts.js and Datamaps.",
      "image":"http://currentamerica.herokuapp.com/images/currentlogo.png",
 
      "link": "http://currentamerica.herokuapp.com/",
@@ -17,7 +17,7 @@
     "title":"Alligator Jobs",
     "short": "A job site for refugees, caseworkers and employers",
     "long": "Alligator Jobs is a full-stack App designed to help refugees find work in America. Our application creates an easy to use platform and database for job seekers, their caseworkers and potential employers to connect easily in ways that erase the divide between different working cultures.",
-    "build": "Node.js/Express, PSQL, OAUTH2/Passport, GoogleAuth, Mocha/Chai, Pivotal Tracker, Heroku, Knex.JS, Bluebird (Promise Library), jQuery, Javascript, Bootstrap.",
+    "build": "Node.js/Express, PostgreSQL, OAUTH2/Passport, GoogleAuth, Mocha/Chai, Pivotal Tracker, Heroku, Knex.JS, Bluebird (Promise Library), jQuery, Javascript, Bootstrap.",
     "image": "https://alligatorjobs.herokuapp.com/image/logo.png",
 
     "link": "https://alligatorjobs.com",
@@ -46,8 +46,8 @@
 
     ],
 
-    "authors":[
-        {"id":1, "name":"Suzi Q"},
-        {"id":2, "name":"John Doe"}
+    "books":[
+        {"id":1, "title":"Suzi Q"},
+        {"id":2, "title":"John Doe"}
     ]
 }

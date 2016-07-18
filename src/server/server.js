@@ -3,7 +3,8 @@
 let config = require('../../gulpfile-config');
 let express = require('express');
 let jsonserver = require('json-server');
-let dbjson = require('./db.json');
+// let dbjson = require('./db.json');
+let dbjson = require ('./db.json');
 
 //web server config
 let web = {};

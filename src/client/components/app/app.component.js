@@ -11,11 +11,13 @@ import {LocationStrategy, Location, HashLocationStrategy } from '@angular/common
 import {HTTP_PROVIDERS} from '@angular/http';
 import {ProjectsService} from '../projects/projects.service';
 import {BooksService} from '../books/books.service';
+// import {LandingService} from '../landing/landing.service'
 
 // Components
 import {SidebarComponent} from '../sidebar/sidebar.component';
 import {BooksComponent} from '../books/books.component';
 import {ProjectsComponent} from '../projects/projects.component';
+import {LandingComponent} from '../landing/landing.component';
 
 @Component({
   selector: 'my-app',
@@ -35,6 +37,11 @@ import {ProjectsComponent} from '../projects/projects.component';
     path: '/projects',
     name: 'Projects',
     component: ProjectsComponent
+  },
+  {
+    path: '/home',
+    name: 'Landing',
+    component: LandingComponent
   }
 ])
 export class AppComponent{
