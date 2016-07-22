@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "init": "npm install",
-    "postinstall": "jspm install && bower install",
+    "postinstall": "bower install && jspm install",
     "start": "gulp run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
