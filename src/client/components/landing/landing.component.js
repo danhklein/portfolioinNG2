@@ -9,7 +9,9 @@ import {Component} from '@angular/core';
   styleUrls: ['components/landing/landing.component.css']
 })
 export class LandingComponent{
-
+ constructor(){
+    this.title = "Home";
+  }
 }
 
 

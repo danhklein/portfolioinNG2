@@ -39,7 +39,7 @@ import {LandingComponent} from '../landing/landing.component';
     component: ProjectsComponent
   },
   {
-    path: '/home',
+    path: '/landing',
     name: 'Landing',
     component: LandingComponent
   }

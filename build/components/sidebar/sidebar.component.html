@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="sidebar.component.css">
 
 <nav role="listbox" class="nav">
-
+  <a [routerLink]="['Landing']" class="nav__item">
+    <paper-icon-item>
+      <iron-icon icon="social:group" item-icon></iron-icon>
+      Home
+    </paper-icon-item>
+  </a>
   <a [routerLink]="['Books']" class="nav__item">
     <paper-icon-item>
       <iron-icon icon="av:library-books" item-icon></iron-icon>
@@ -10,14 +15,26 @@
   </a>
   <a [routerLink]="['Projects']" class="nav__item">
     <paper-icon-item>
-      <iron-icon icon="social:group" item-icon></iron-icon>
+      <iron-icon icon="icons:code" item-icon></iron-icon>
       Projects
     </paper-icon-item>
   </a>
-  <a [routerLink]="['Landing']" class="nav__item">
+
+  <a href="mailto:danhirschklein@gmail.com" class="nav__item">
     <paper-icon-item>
-      <iron-icon icon="social:group" item-icon></iron-icon>
-      Home
+    <iron-icon icon="icons:mail"></iron-icon>
+    Email
     </paper-icon-item>
   </a>
+  <a href="tel:+12488213104" class="nav__item">
+    <paper-icon-item>
+      <iron-icon icon="icons:perm-phone-msg"></iron-icon>
+      Phone
+    </paper-icon-item>
+  </a>
+  <paper-icon-item class="nav__item">Denver, CO</paper-icon-item>
+  <a href="www.github.com/danhklein" class="nav__item"><paper-icon-item>Github</paper-icon-item></a>
+  <a href="www.linkedin.com/in/danhirschklein" class="nav__item"><paper-icon-item>LinkedIn</paper-icon-item></a>
+
+
 </nav>
