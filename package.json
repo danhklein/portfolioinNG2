@@ -6,7 +6,7 @@
   "scripts": {
     "init": "npm install",
     "postinstall": "bower install && jspm install",
-    "start": "gulp run",
+    "start": "NODE_ENV=development node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Klein <danhirschklein@gmail.com>",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "express": "~4.13.4",
+    "foobar": "^1.1.0",
     "lodash": "~4.0.0"
   },
   "devDependencies": {

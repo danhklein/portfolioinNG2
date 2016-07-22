@@ -4,4 +4,4 @@ node_modules
 dist
 .tmp
 .sass-cache
-bower_components
+bower_componentsnode_modules
