@@ -2,6 +2,11 @@
   "projects":
   [
     {
+        "title":"About This Site",
+        "short": "This Portfolio was built using Angular 2, ES6, Skeleton.css and Material Design. Click a project below to learn more.",
+        "build": "Angular 2, ES6, Skeleton.css and Material Design"
+    },
+    {
     "id":1,
     "title":"Current America",
     "short": "Discover How U.S. Electricity Generation Has Changed Over Time And Distance",
