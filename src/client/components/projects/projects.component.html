@@ -2,11 +2,9 @@
 
 <paper-drawer-panel right-drawer>
   <paper-header-panel drawer>
-    <!-- <paper-toolbar>
-      <div>Application</div>
-    </paper-toolbar> -->
+
     <div *ngIf="selectedProject">
-      <!-- <h2>{{selectedProject.title}}</h2> -->
+
       <img src="{{selectedProject.image}}">
       <p>{{selectedProject.long}}</p>
       <h3>Build</h3>
@@ -18,15 +16,12 @@
         <button>Github</button>
       </a>
     </div>
+
   </paper-header-panel>
 
 
   <paper-header-panel main>
-    <!-- <paper-toolbar>
-      <paper-icon-button icon="menu" paper-drawer-toggle>
-      </paper-icon-button>
-      <div>Title</div>
-    </paper-toolbar> -->
+
     <div role="listbox">
       <div class="container">
         <div class="posts">

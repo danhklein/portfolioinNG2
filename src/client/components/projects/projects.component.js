@@ -29,8 +29,8 @@ export class ProjectsComponent{
 
   getProjects(){
     this.projectsService.getList()
-                       .subscribe(
-                         projects => this.projects = projects,
-                         error => this.errorMessage = error
-                       )
+      .subscribe(
+       projects => this.projects = projects,
+       error => this.errorMessage = error
+      )
   }}
