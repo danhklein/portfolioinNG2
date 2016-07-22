@@ -6,7 +6,7 @@
   "scripts": {
     "init": "npm install",
     "postinstall": "bower install && jspm install",
-    "start": "NODE_ENV=development node ./bin/www",
+    "start": "node src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Klein <danhirschklein@gmail.com>",
