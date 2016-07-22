@@ -30,13 +30,13 @@ import {LandingComponent} from '../landing/landing.component';
   {
     path: '/books',
     name: 'Books',
-    component: BooksComponent,
-    useAsDefault: true
+    component: BooksComponent
   },
   {
     path: '/projects',
     name: 'Projects',
-    component: ProjectsComponent
+    component: ProjectsComponent,
+    useAsDefault: true
   },
   {
     path: '/landing',
@@ -46,7 +46,10 @@ import {LandingComponent} from '../landing/landing.component';
 ])
 export class AppComponent{
   constructor(router){
-    this.title = "Dan Klein's Portfolio";
+    this.title = "Dan Klein Makes Your Internet";
+    this.email = "<a href='mailto:danhirschklein@gmail.com'>mailto:danhirschklein@gmail.com</a>";
+    this.phone = "<"
+
     this.router = router;
   }
 
