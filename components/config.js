@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "/",
+  baseURL: "https://danhklein.github.io/portfolioinNG2/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
