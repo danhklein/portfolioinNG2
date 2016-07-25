@@ -16,7 +16,7 @@ System.config({
 
   packages: {
     "components": {
-      "main": "main",
+      "main": "./main",
       "defaultExtension": "js"
     }
   },
